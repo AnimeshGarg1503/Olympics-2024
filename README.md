@@ -6,10 +6,10 @@ This project automates the extraction, transformation, and analysis of Olympics 
 ### Key Features
 - **Automated Data Extraction**: A Python script that downloads the latest Olympics dataset from Kaggle, unzips it, and converts CSV files to Excel format.
 - **Data Storage and Analysis**: The transformed data is stored in SQL Server, where crucial insights are derived using SQL queries.
-- **Dynamic Dashboards**: The analyzed data is visualized through interactive Tableau dashboards.
+- **Dynamic Dashboards**: The analyzed data is visualized through interactive Tableau dashboards. The user can filter based on the country and get important information about various statistics. 
 
 ## Data Source
-The dataset is sourced from [Kaggle](https://www.kaggle.com/), where it is updated daily.
+The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games), where it was updated daily during the course of Paris Olympics 2024.
 
 ## Project Structure
 - `scripts/`: Contains the Python scripts for data extraction and transformation.
@@ -25,12 +25,14 @@ The dataset is sourced from [Kaggle](https://www.kaggle.com/), where it is updat
 2. **Data Analysis**:
    - The Excel files are imported into SQL Server.
    - Various SQL queries are used to join relevant tables and extract meaningful insights from the data.
+   - There are few queries that extract data relevant for Dashboard Development. 
 
 3. **Data Visualization**:
    - The analyzed data is connected to Tableau, where dynamic dashboards are created to visualize key metrics and trends.
+   - I have tried to gather as much insights possible as to athlete's age, demographics and likewise.
 
 ## Dashboards
-![Dashboard 1](dashboards/dashboard1.png)
+![Dashboard 1]()
 ![Dashboard 2](dashboards/dashboard2.png)
 
 ## How to Use
