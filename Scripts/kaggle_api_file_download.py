@@ -10,8 +10,7 @@ api.authenticate()
 
 # Step 2: Define dataset and file path
 dataset = "piterfm/paris-2024-olympic-summer-games"  # Replace with the actual dataset name
-download_path = 'C:\\Users\\Animesh\\OneDrive - University of Texas at Arlington\\Desktop\\Andy\\Tableau Dashboards\\Olympics 2024'
-
+download_path = 'path_for_the_file'
 # Step 3: Remove existing files if they exist
 if os.path.exists(download_path):
     for root, dirs, files in os.walk(download_path):
@@ -31,6 +30,6 @@ if os.path.exists(zip_file):
 
 print(f"{dataset} has been downloaded and unzipped.")
 
-file = open(r'C:\\Users\Animesh\\OneDrive - University of Texas at Arlington\\Desktop\\Andy\\Tableau Dashboards\\Olympics 2024\\log.txt','a')
+file = open(r'path_where_you_want_to_log','a')
 
 file.write(f'{datetime.datetime.now()} - The Script ran successfully. \n')
