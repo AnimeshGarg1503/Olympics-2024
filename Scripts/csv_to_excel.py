@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Define the directory containing your CSV files
-csv_directory = 'C:\\Users\\Animesh\\OneDrive - University of Texas at Arlington\\Desktop\\Andy\\Tableau Dashboards\\Olympics 2024'  # Replace with your directory
+csv_directory = 'directory_for_file'  # Replace with your directory
 
 # Create an output directory for the Excel files
 excel_directory = os.path.join(csv_directory, 'excel_files')
