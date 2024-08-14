@@ -32,8 +32,13 @@ The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/piterfm/par
    - I have tried to gather as much insights possible as to athlete's age, demographics and likewise.
 
 ## Dashboards
-![Dashboard 1]()
-![Dashboard 2](dashboards/dashboard2.png)
+Paris Olympics 2024 - Top 5 Countries
+
+![Dashboard 1](Dashboards/Paris%202024%20Olympics%20Dashboard%20-%20Top%205%20Countries.png)
+
+Paris Olympics 2024 - Overview
+
+![Dashboard 2](Dashboards/Paris%202024%20Olympics%20Dashboard.png)
 
 ## How to Use
 1. Clone this repository: `git clone <repository-url>`.
